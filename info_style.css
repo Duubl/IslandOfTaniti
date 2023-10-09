@@ -17,26 +17,36 @@
     height: 100%;
   }
 
-  /* Travel information header */
-  #travel_header {
+  .content_container {
     position: absolute;
+    height: 100%;
+    top: 60%;
+  }
+
+  /* Travel information header */
+  .travel_header {
+    position: relative;
     width: 100%;
     height: 10%;
     font-size: 1vw;
     background-color: #e2e2e2;
     text-align: center;
-    top: 45%;
     z-index: 2;
     border-radius: 16px 16px 0px 0px;
   }
 
+  .travel_header h1 {
+    position: relative;
+    top: 25%;
+  }
+
   .info_container {
-    position: absolute;
+    display: inline-block;
+    position: relative;
     width: 100%;
     height: auto;
     background-color: #e2e2e2;
     text-align: left;
-    top: 55%;
     z-index: 2;
   }
 

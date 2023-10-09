@@ -21,6 +21,12 @@
     height: 100%;
   }
 
+  .content_container {
+    position: absolute;
+    height: 100%;
+    top: 60%;
+  }
+
   /* Navigation bar */
   .nav {
     overflow: hidden;
@@ -67,8 +73,7 @@
   /* Attractions header */
   .attraction_header {
     overflow: hidden;
-    position: absolute;
-    top: 60%;
+    position: relative;
     width: 70%;
     height: 15%;
     z-index: 98;
@@ -116,8 +121,7 @@
   /* Attractions container */
   .attractions {
     overflow: hidden;
-    position: absolute;
-    top: 75%;
+    position: relative;
     width: 70%;
     height: auto;
     z-index: 98;
@@ -133,7 +137,7 @@
   }
 
   .attraction {
-    display: block;
+    display: inline-block;
     text-align: center;
     background: #e9e9e9;
     border-radius: 16px;

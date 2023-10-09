@@ -16,11 +16,16 @@
     height: 100%;
   }
 
+  .content_container {
+    position: absolute;
+    height: 100%;
+    top: 100%;
+  }
+
   /* Blurb text above event selectors */
   .blurb {
     overflow: hidden;
-    position: absolute;
-    top: 100%;
+    position: relative;
     width: 100%;
     height: 20%;
     z-index: 98;
@@ -40,11 +45,10 @@
 
   /* Event header */
   .event_header {
-    position: absolute;
+    position: relative;
     z-index: 98;
     width: 100%;
     height: 5.01%;
-    top: 120%;
     background:#e2e2e2;;
   }
 
@@ -60,8 +64,7 @@
   /* Event selectors on main page */
   .events {
     overflow: hidden;
-    position: absolute;
-    top: 125%;
+    position: relative;
     width: 100%;
     height: 40%;
     z-index: 98;
@@ -98,8 +101,7 @@
   /* Informational hyperlinks on index */
   .learn_more {
     overflow: hidden;
-    position: absolute;
-    top: 165%;
+    position: relative;
     width: 100%;
     height: auto;
     z-index: 98;
@@ -130,7 +132,7 @@
   }
 
   .info_card a {
-    position: absolute;
+    position: relative;
     bottom: 3%;
     transform: translate(-50%, -50%);
   }
@@ -143,8 +145,7 @@
   /* Hyperlink to Planning Page */
   .planning {
     overflow: hidden;
-    position: absolute;
-    top: 255%;
+    position: relative;
     width: 100%;
     height: auto;
     z-index: 98;
@@ -177,8 +178,7 @@
   /* Hyperlink to Attractions Page */
   .attractions {
     overflow: hidden;
-    position: absolute;
-    top: 210%;
+    position: relative;
     width: 100%;
     height: auto;
     z-index: 98;
