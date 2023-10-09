@@ -1,0 +1,246 @@
+  /* Body */
+  body {
+    font-family: 'Trebuchet MS';
+    font-size: 0.9vw;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  }
+
+  /* Landscape image */
+  .landscape img{
+    position: fixed;
+    bottom: 7%;
+    z-index: 1;
+    width: auto;
+    height: 100%;
+  }
+
+  /* Blurb text above event selectors */
+  .blurb {
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 20%;
+    z-index: 98;
+    background: #e2e2e2;;
+    border-radius: 16px 16px 0px 0px;
+  }
+
+  .blurb p {
+    position: relative;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    top: 15%;
+    left: 50%;
+    margin-left: -30%;
+  }
+
+  /* Event header */
+  .event_header {
+    position: absolute;
+    z-index: 98;
+    width: 100%;
+    height: 5.01%;
+    top: 120%;
+    background:#e2e2e2;;
+  }
+
+  .event_header h2 {
+    position: relative;
+    font-size: 1.6vw;
+    text-align: center;
+    top: 30%;
+    margin: auto;
+    color: black;
+  }
+
+  /* Event selectors on main page */
+  .events {
+    overflow: hidden;
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    height: 40%;
+    z-index: 98;
+    background: #e2e2e2;;
+  }
+
+  .event_container {
+    position: relative;
+    width: 73%;
+    height: 100%;
+    left: 13.5%;
+    display: flex;
+    align-items: center;
+  }
+
+  .event_card {
+    text-align: center;
+    background: #e2e2e2;;
+    border-radius: 16px;
+    width: 30%;
+    height: 80%;
+    padding: 14px 16px;
+    margin: 24px;
+    color: white;
+    font-size: 1.1vw;
+    background-size: cover;
+    transition: height 0.2s ease-in 50ms;
+  }
+
+  .event_card:hover{
+    height: 90%;
+  }
+
+  /* Informational hyperlinks on index */
+  .learn_more {
+    overflow: hidden;
+    position: absolute;
+    top: 165%;
+    width: 100%;
+    height: auto;
+    z-index: 98;
+    background: #e2e2e2;;
+  }
+    
+  .learn_container {
+    position: relative;
+    left: 14%;
+    margin: 12px;
+    width: 72%;
+    height: auto;
+    display: flex;
+  }
+
+  .info_card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background: #d8c8b3;
+    border-radius: 16px;
+    width: 72%;
+    height: auto;
+    padding: 14px 16px;
+    margin: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  .info_card a {
+    position: absolute;
+    bottom: 3%;
+    transform: translate(-50%, -50%);
+  }
+
+  .learn_more img {
+    border-radius: 16px;
+    margin: 24px;
+  }
+
+  /* Hyperlink to Planning Page */
+  .planning {
+    overflow: hidden;
+    position: absolute;
+    top: 255%;
+    width: 100%;
+    height: auto;
+    z-index: 98;
+    background: #e2e2e2;;
+  }
+    
+  .plan_container {
+    position: relative;
+    left: 14%;
+    margin: 12px;
+    width: 72%;
+    height: auto;
+    display: flex;
+  }
+
+  .plan_card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background: #d8c8b3;
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    padding: 14px 16px;
+    margin: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  /* Hyperlink to Attractions Page */
+  .attractions {
+    overflow: hidden;
+    position: absolute;
+    top: 210%;
+    width: 100%;
+    height: auto;
+    z-index: 98;
+    background: #e2e2e2;;
+  }
+
+  .attractions img {
+    border-radius: 16px;
+    margin: 24px;
+  }
+
+  /* Taniti text fadeInAnimation */
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  /* Navigation bar */
+  .nav {
+    overflow: hidden;
+    background-image: linear-gradient(#e2e2e2, 30%, rgba(255,0,0,0));    
+    position: sticky;
+    z-index: 99;
+  }
+
+  .nav img {
+    width: 120px;
+    height: auto;
+  }
+
+  .nav a {
+    display: block;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 90px;
+    padding: 14px 16px;
+    color: black;
+    font-size: 0.8vw;
+  }
+
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .nav li {
+    float: right;
+  }
+
+  .nav li a:hover {
+    border-top-style: solid;
+    border-width: 6px;
+    border-color: #8f856a;
+    margin-bottom: -6px;
+  }
+  
+
